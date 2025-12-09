@@ -1,0 +1,36 @@
+xv6 kernel is booting
+
+hart 1 starting
+hart 2 starting
+init: starting sh
+$ Q3_test
+
+===============================================
+=        MLFQ Scheduler Test Program         =
+=        Testing SECH under MLFQ            =
+===============================================
+===============================================
+
+[TEST] Starting basic MLFQ test with mixed workloads
+[[START[]T PEIDST ]4 TE[STST]AR T] WPa PID 5 (IO Worker 1) started - will do 10i000t(ing [for STAR5 chiCPU Worker 1T)[T]l d ID 6 (CPU Worker 1) started - will do 25s000 wotarted processes to complete...
+-  Iwill O do ope20rations00
+0 work units
+rk un PID i7 ts
+(CPU Worker 2) started - will do 18000 work units
+EST] PID 8 (IO Worker 2) started - will do 11000 IO operations
+[Finish] PID 7 (CPU Worker 2) completed all 18000 work units
+[TEST] Child PID 7 exited with status 0
+[Finish] PID 4 (CPU Worker 1) completed all 20000 work units
+[TEST] Child PID 4 exited with status 0
+[Finish] PID 6 (CPU Worker 1) completed all 25000 work units
+[TEST] Child PID 6 exited with status 0
+[TEST] PID 5 (IO Worker 1) completed all 10000 IO operations
+[TEST] Child PID 5 exited with status 0
+[TEST] PID 8 (IO Worker 2) completed all 11000 IO operations
+[TEST] Child PID 8 exited with status 0
+
+===============================================
+=           Processes completed: 5          =
+===============================================
+
+$ QEMU: Terminated
